@@ -1,0 +1,3 @@
+[submodule "src/flatland"]
+	path = src/flatland
+	url = https://github.com/avidbots/flatland.git
