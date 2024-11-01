@@ -1,9 +1,0 @@
-properties: {}
-layers:
-  - name: "map"
-    map: "c.yaml"
-    color: [1.0, 1.0, 1.0, 1]
-models:
-  - name: CTurtle
-    model: "cturtle.model.yaml"
-
