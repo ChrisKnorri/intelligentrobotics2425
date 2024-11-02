@@ -3,8 +3,7 @@
 from math import radians, inf, isnan, pi, cos, sin, sqrt
 
 import rclpy
-from rclpy.publisher import Publisher
-from rclpy.node import Node
+from rclpy import Publisher, Node
 from geometry_msgs.msg import Twist, Pose2D
 from sensor_msgs.msg import LaserScan
 from nav_msgs.msg import Odometry
@@ -55,12 +54,6 @@ class CTurtle(Node):
         self.initial_pose_x = self.get_parameter("initial_pose_x").value
         self.initial_pose_y = self.get_parameter("initial_pose_y").value
         self.initial_pose_yaw = self.get_parameter("initial_pose_yaw").value
-
-        print("£££££££££££££££££££££££££££££££££££33")
-        print(self.initial_pose_x)
-        print(self.initial_pose_y)
-        print(self.initial_pose_yaw)
-        print("£££££££££££££££££££££££££££££££££££33")
 
         self.vel = Twist()
 

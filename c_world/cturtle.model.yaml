@@ -2,7 +2,7 @@
 
 bodies:  # List of named bodies
   - name: base
-    pose: [0, 0, 0] 
+    pose: [20, 0, 0]
     type: dynamic  
     color: [1, 1, 1, 0.75] 
     footprints:
@@ -25,7 +25,7 @@ bodies:  # List of named bodies
         points: [[0.0, 0.0], [3.0, 0.0], [2.77, -1.15], [2.12, -2.12], [1.15, -2.77], [0.0, -3.0], [-1.15, -2.77], [-2.12, -2.12]]
         density: 1
   - name: laser_mount
-    pose: [0, 0, 0] 
+    pose: [20, 0, 0]
     type: dynamic
     color: [1, 0, 0, 0.75] 
     footprints:
@@ -34,7 +34,7 @@ bodies:  # List of named bodies
         points: [[.025, -.025], [.025, 0.025], [0.1, 0.0], [-.025, 0.025], [-.025, -0.025]]
         density: 1
   - name: shell
-    pose: [0,0,0]
+    pose: [20,0,0]
     type: dynamic
     color: [0, 0, 1, 1.0]
     footprints:
