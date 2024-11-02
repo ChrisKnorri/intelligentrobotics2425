@@ -1,5 +1,6 @@
 # Adapted from: https://github.com/avidbots/turtlebot_flatland/blob/master/robot/turtlebot.model.yaml
 
+
 bodies:  # List of named bodies
   - name: base
     pose: [-10, 10, 0] 
