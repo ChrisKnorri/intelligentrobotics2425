@@ -56,6 +56,12 @@ class CTurtle(Node):
         self.initial_pose_y = self.get_parameter("initial_pose_y").value
         self.initial_pose_yaw = self.get_parameter("initial_pose_yaw").value
 
+        print("£££££££££££££££££££££££££££££££££££33")
+        print(self.initial_pose_x)
+        print(self.initial_pose_y)
+        print(self.initial_pose_yaw)
+        print("£££££££££££££££££££££££££££££££££££33")
+
         self.vel = Twist()
 
         self.pub: Publisher = self.create_publisher(Twist, "/cmd_vel", 1)
